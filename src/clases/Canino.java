@@ -30,6 +30,10 @@ public class Canino extends Animal{
     public void rugir(){
         System.out.println("Roaaaar");
     }
+     @Override
+     public String toString(){
+        return "Audicion:"+audicion+"- "+"Temperatura corporal:"+temperaturaCorporal;
+    }
     public String getAudicion() {
         return this.audicion;
     }

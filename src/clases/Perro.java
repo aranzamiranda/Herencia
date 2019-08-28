@@ -29,6 +29,10 @@ public class Perro extends Canino{
     public void ladrar(){
         System.out.println("Guau guau");
     }
+     @Override
+    public String toString(){
+        return "Numero de dientes:"+numDientes+"-"+"Raza:"+raza;
+    }
 
     public int getNumDientes() {
         return this.numDientes;

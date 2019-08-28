@@ -29,6 +29,10 @@ public class Lobo extends Canino{
     public void aullar(){
         System.out.println("Auuuuuuuuuuu!");
     }
+    @Override
+    public String toString(){
+        return "Numero de dientes:"+numDientes+"-"+"Organizacion:"+organizacion;
+    }
 
     public int getNumDientes() {
         return this.numDientes;

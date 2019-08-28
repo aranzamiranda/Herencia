@@ -36,6 +36,10 @@ public class Animal {
     public void comer(){
         System.out.println("Estoy comiendo");
     }
+    @Override
+     public String toString(){
+        return "Nombre:"+nombre+"- "+"Lugar:"+lugar;
+    }
 
     public String getSexo() {
         return this.sexo;
